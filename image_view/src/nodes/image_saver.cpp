@@ -222,5 +222,5 @@ int main(int argc, char** argv)
       "end", &Callbacks::callbackEndSave, &callbacks);
   // }
 
-  ros::spin();
+  ros::spinOnce();
 }
